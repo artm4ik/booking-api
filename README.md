@@ -36,3 +36,10 @@
 - **JWT** - аутентификация
 - **Pydantic** - валидация данных
 - **Uvicorn** - ASGI сервер
+
+## Установка и запуск
+
+1. **Клонируйте репозиторий:**
+```bash
+git clone https://github.com/artm4ik/booking-api.git
+cd booking-api
