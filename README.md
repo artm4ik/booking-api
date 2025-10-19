@@ -24,24 +24,29 @@ Backend-приложение для бронирования отелей и а�
 ```bash
 git clone https://github.com/artm4ik/booking-api.git
 cd booking-api
+
 Создайте виртуальное окружение:
 
 bash
 python3 -m venv venv
 source venv/bin/activate
+
 Установите зависимости:
 
 bash
 pip install -r requirements.txt
+
 Создайте тестовые данные:
 
 bash
 python fix_admin.py
+
 Запустите сервер:
 
 bash
 python3 main.py
 Откройте документацию:
+
 http://localhost:8000/docs
 
 Тестовые пользователи
